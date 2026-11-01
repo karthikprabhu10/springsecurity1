@@ -1,0 +1,124 @@
+2026-10-31T11:33:47.585+05:30  INFO 18716 --- [securityexample] [restartedMain] c.j.s.SecurityexampleApplication         : Starting SecurityexampleApplication using Java 25.0.1 with PID 18716 (D:\QS\java\Advance Java\Spring Boot\securityexample-fixed\securityexample\target\classes started by lenovo in D:\QS\java\Advance Java\Spring Boot\securityexample-fixed\securityexample)
+2026-10-31T11:33:47.590+05:30  INFO 18716 --- [securityexample] [restartedMain] c.j.s.SecurityexampleApplication         : No active profile set, falling back to 1 default profile: "default"
+2026-10-31T11:33:47.677+05:30  INFO 18716 --- [securityexample] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-10-31T11:33:47.677+05:30  INFO 18716 --- [securityexample] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-10-31T11:33:48.733+05:30  INFO 18716 --- [securityexample] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-31T11:33:48.812+05:30  INFO 18716 --- [securityexample] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 60 ms. Found 1 JPA repository interface.
+2026-10-31T11:33:49.421+05:30  INFO 18716 --- [securityexample] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-31T11:33:49.445+05:30  INFO 18716 --- [securityexample] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-31T11:33:49.445+05:30  INFO 18716 --- [securityexample] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.27]
+2026-10-31T11:33:49.505+05:30  INFO 18716 --- [securityexample] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1827 ms
+2026-10-31T11:33:49.695+05:30  INFO 18716 --- [securityexample] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-10-31T11:33:49.779+05:30  INFO 18716 --- [securityexample] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.13.Final
+2026-10-31T11:33:50.301+05:30  INFO 18716 --- [securityexample] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-31T11:33:50.342+05:30  INFO 18716 --- [securityexample] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-10-31T11:33:50.530+05:30  INFO 18716 --- [securityexample] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6fe08e18
+2026-10-31T11:33:50.532+05:30  INFO 18716 --- [securityexample] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-10-31T11:33:50.625+05:30  INFO 18716 --- [securityexample] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/SecurityDB]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 18.6
+	Default catalog/schema: SecurityDB/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-31T11:33:51.716+05:30  INFO 18716 --- [securityexample] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-31T11:33:51.806+05:30  INFO 18716 --- [securityexample] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-31T11:33:51.890+05:30  INFO 18716 --- [securityexample] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-10-31T11:33:52.134+05:30  WARN 18716 --- [securityexample] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-10-31T11:33:52.225+05:30  INFO 18716 --- [securityexample] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name myUserImplementation
+2026-10-31T11:33:52.703+05:30  INFO 18716 --- [securityexample] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-10-31T11:33:52.711+05:30  INFO 18716 --- [securityexample] [restartedMain] c.j.s.SecurityexampleApplication         : Started SecurityexampleApplication in 5.764 seconds (process running for 6.752)
+2026-10-31T11:34:04.247+05:30  INFO 18716 --- [securityexample] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-10-31T11:34:04.248+05:30  INFO 18716 --- [securityexample] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-10-31T11:34:04.250+05:30  INFO 18716 --- [securityexample] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-10-31T12:00:37.881+05:30  INFO 18716 --- [securityexample] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-31T12:00:37.897+05:30  INFO 18716 --- [securityexample] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-31T12:00:37.913+05:30  INFO 18716 --- [securityexample] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-10-31T12:00:37.931+05:30  INFO 18716 --- [securityexample] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-10-31T12:00:37.951+05:30  INFO 18716 --- [securityexample] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-10-31T12:00:45.800+05:30  INFO 13908 --- [securityexample] [restartedMain] c.j.s.SecurityexampleApplication         : Starting SecurityexampleApplication using Java 25.0.1 with PID 13908 (D:\QS\java\Advance Java\Spring Boot\securityexample-fixed\securityexample\target\classes started by lenovo in D:\QS\java\Advance Java\Spring Boot\securityexample-fixed\securityexample)
+2026-10-31T12:00:45.804+05:30  INFO 13908 --- [securityexample] [restartedMain] c.j.s.SecurityexampleApplication         : No active profile set, falling back to 1 default profile: "default"
+2026-10-31T12:00:45.884+05:30  INFO 13908 --- [securityexample] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-10-31T12:00:45.884+05:30  INFO 13908 --- [securityexample] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-10-31T12:00:46.923+05:30  INFO 13908 --- [securityexample] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-31T12:00:46.995+05:30  INFO 13908 --- [securityexample] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 53 ms. Found 1 JPA repository interface.
+2026-10-31T12:00:47.841+05:30  INFO 13908 --- [securityexample] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-31T12:00:47.859+05:30  INFO 13908 --- [securityexample] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-31T12:00:47.861+05:30  INFO 13908 --- [securityexample] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.27]
+2026-10-31T12:00:47.928+05:30  INFO 13908 --- [securityexample] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2043 ms
+2026-10-31T12:00:48.141+05:30  INFO 13908 --- [securityexample] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-10-31T12:00:48.217+05:30  INFO 13908 --- [securityexample] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.13.Final
+2026-10-31T12:00:48.759+05:30  INFO 13908 --- [securityexample] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-31T12:00:48.800+05:30  INFO 13908 --- [securityexample] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-10-31T12:00:49.012+05:30  INFO 13908 --- [securityexample] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7a1cd5bb
+2026-10-31T12:00:49.014+05:30  INFO 13908 --- [securityexample] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-10-31T12:00:49.101+05:30  INFO 13908 --- [securityexample] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/SecurityDB]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 18.6
+	Default catalog/schema: SecurityDB/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-31T12:00:50.598+05:30  INFO 13908 --- [securityexample] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-31T12:00:50.735+05:30  INFO 13908 --- [securityexample] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-31T12:00:50.844+05:30  INFO 13908 --- [securityexample] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-10-31T12:00:51.148+05:30  WARN 13908 --- [securityexample] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-10-31T12:00:51.252+05:30  INFO 13908 --- [securityexample] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name myUserImplementation
+2026-10-31T12:00:51.827+05:30  INFO 13908 --- [securityexample] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-10-31T12:00:51.837+05:30  INFO 13908 --- [securityexample] [restartedMain] c.j.s.SecurityexampleApplication         : Started SecurityexampleApplication in 6.667 seconds (process running for 7.523)
+2026-10-31T12:01:36.435+05:30  INFO 13908 --- [securityexample] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-10-31T12:01:36.435+05:30  INFO 13908 --- [securityexample] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-10-31T12:01:36.437+05:30  INFO 13908 --- [securityexample] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-10-31T12:02:04.125+05:30  INFO 13908 --- [securityexample] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-31T12:02:04.134+05:30  INFO 13908 --- [securityexample] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-31T12:02:04.140+05:30  INFO 13908 --- [securityexample] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-10-31T12:02:04.144+05:30  INFO 13908 --- [securityexample] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-10-31T12:02:04.157+05:30  INFO 13908 --- [securityexample] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-10-31T12:02:09.496+05:30  INFO 6660 --- [securityexample] [restartedMain] c.j.s.SecurityexampleApplication         : Starting SecurityexampleApplication using Java 25.0.1 with PID 6660 (D:\QS\java\Advance Java\Spring Boot\securityexample-fixed\securityexample\target\classes started by lenovo in D:\QS\java\Advance Java\Spring Boot\securityexample-fixed\securityexample)
+2026-10-31T12:02:09.501+05:30  INFO 6660 --- [securityexample] [restartedMain] c.j.s.SecurityexampleApplication         : No active profile set, falling back to 1 default profile: "default"
+2026-10-31T12:02:09.572+05:30  INFO 6660 --- [securityexample] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-10-31T12:02:09.573+05:30  INFO 6660 --- [securityexample] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-10-31T12:02:10.517+05:30  INFO 6660 --- [securityexample] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-31T12:02:10.597+05:30  INFO 6660 --- [securityexample] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 59 ms. Found 1 JPA repository interface.
+2026-10-31T12:02:11.146+05:30  INFO 6660 --- [securityexample] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-31T12:02:11.161+05:30  INFO 6660 --- [securityexample] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-31T12:02:11.162+05:30  INFO 6660 --- [securityexample] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.27]
+2026-10-31T12:02:11.209+05:30  INFO 6660 --- [securityexample] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1635 ms
+2026-10-31T12:02:11.368+05:30  INFO 6660 --- [securityexample] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-10-31T12:02:11.421+05:30  INFO 6660 --- [securityexample] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.13.Final
+2026-10-31T12:02:11.837+05:30  INFO 6660 --- [securityexample] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-31T12:02:11.868+05:30  INFO 6660 --- [securityexample] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-10-31T12:02:12.023+05:30  INFO 6660 --- [securityexample] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4db9dc4c
+2026-10-31T12:02:12.025+05:30  INFO 6660 --- [securityexample] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-10-31T12:02:12.135+05:30  INFO 6660 --- [securityexample] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/SecurityDB]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 18.6
+	Default catalog/schema: SecurityDB/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-31T12:02:13.114+05:30  INFO 6660 --- [securityexample] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-31T12:02:13.189+05:30  INFO 6660 --- [securityexample] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-31T12:02:13.261+05:30  INFO 6660 --- [securityexample] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-10-31T12:02:13.482+05:30  WARN 6660 --- [securityexample] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-10-31T12:02:13.559+05:30  INFO 6660 --- [securityexample] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name myUserImplementation
+2026-10-31T12:02:13.945+05:30  INFO 6660 --- [securityexample] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-10-31T12:02:13.951+05:30  INFO 6660 --- [securityexample] [restartedMain] c.j.s.SecurityexampleApplication         : Started SecurityexampleApplication in 5.045 seconds (process running for 5.889)
+2026-10-31T12:02:19.851+05:30  INFO 6660 --- [securityexample] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-10-31T12:02:19.851+05:30  INFO 6660 --- [securityexample] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-10-31T12:02:19.853+05:30  INFO 6660 --- [securityexample] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
