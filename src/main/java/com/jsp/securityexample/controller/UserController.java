@@ -24,5 +24,4 @@ public class UserController {
     public  String signin(@RequestHeader String username, @RequestHeader String password){
         return userService.signin(username,password);
     }
-
 }

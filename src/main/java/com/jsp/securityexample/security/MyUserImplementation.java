@@ -16,7 +16,6 @@ public class MyUserImplementation  implements UserDetailsService {
         UserDetails userDetails = userRepository.findByUsername(username).orElseThrow(
         () -> new UsernameNotFoundException("Invalid UserName")
                 );
-
     return userDetails;
     }
 }
